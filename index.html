@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+    <div id="projectTitle">
+        <h1>JoF Holocron Manager</h1>
+    </div>
+<body>
+    <div>
+        <h3>Unopened Holocrons (3)</h3>
+    </div>
+    <div id="unOpenedTable">
+        <table class="table table-secondary">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Holocron rarity</th>
+                    <th scope="col">Holocron link</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>2020.03.14</td>
+                    <td>Rare <img id="holoRarity" src="https://i.imgur.com/P95JVRJ.png" alt="holoRare"></td>
+                    <td><button type="button" class="btn btn-link">http://jofacademy.eu/holocron/?id=439dafb0833d218f9c574509924337e1</button></td>
+                    <td><button type="button" class="btn btn-primary">Transfer</button><button type="button" class="btn btn-info">Open</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>2020.06.01</td>
+                    <td>Rare <img id="holoRarity" src="https://i.imgur.com/P95JVRJ.png" alt="holoRare"></td>
+                    <td><button type="button" class="btn btn-link">https://jofacademy.eu/holocron/?id=eb1d6601756fa41ab04955923f12d1c8</button></td>
+                    <td><button type="button" class="btn btn-primary">Transfer</button><button type="button" class="btn btn-info">Open</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>2020.08.20</td>
+                    <td>Ancient <img id="holoRarity" src="https://i.imgur.com/NPVs2Hl.png" alt="holoAncient"></td>
+                    <td><button type="button" class="btn btn-link">https://jofacademy.eu/holocron/?id=ce6dcfed85d96d4533592da04b43cda4</button></td>
+                    <td><button type="button" class="btn btn-primary">Transfer</button><button type="button" class="btn btn-info">Open</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h3>Opened Holocrons (4)</h3>
+    </div>
+    <div id="openedTable">
+        <table class="table table-secondary">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Holocron rarity</th>
+                    <th scope="col">Reward</th>
+                    <th scope="col">Holocron link</th>
+                    <th scope="col">Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>2019.09.29</td>
+                    <td>Rare <img id="holoRarity" src="https://i.imgur.com/P95JVRJ.png" alt="holoRare"></td>
+                    <td>Custom hilt on temple server</td>
+                    <td><button type="button" class="btn btn-link">http://jofacademy.eu/holocron/?id=1e986394b0aae0d2fff1ae06a4e6f3db</button></td>
+                    <td id="holoStatusNU">NOT USED!</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>2019.11.24</td>
+                    <td>Ordinary <img id="holoRarity" src="https://i.imgur.com/Xqm8ivu.png" alt="holoOrdinary"></td>
+                    <td>+30 forum post count</td>
+                    <td><button type="button" class="btn btn-link">https://jofacademy.eu/holocron/?id=b3fe143b3b63c9e757683f69d7dcfa03</button></td>
+                    <td id="holoStatusU">USED!</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>2019.12.24</td>
+                    <td>Ordinary <img id="holoRarity" src="https://i.imgur.com/Xqm8ivu.png" alt="holoOrdinary"></td>
+                    <td>Extra life for trial mission</td>
+                    <td><button type="button" class="btn btn-link">https://jofacademy.eu/holocron/?id=738f9dc72ee0cf00d84fe91b9710095a</button></td>
+                    <td id="holoStatusU">USED!</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>2020.01.07</td>
+                    <td>Salvaged <img id="holoRarity" src="https://i.imgur.com/ym5s6xW.png" alt="holoSalvaged"></td>
+                    <td>Extra life for normal co-op mission</td>
+                    <td><button type="button" class="btn btn-link">https://jofacademy.eu/holocron/?id=738f9dc72ee0cf00d84fe91b9710095a</button></td>
+                    <td id="holoStatusNU">NOT USED!</td>
+                </tr>
+            </tbody>
+        </table>
+<script src="main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+
+
+#holoRarity {
+    width: 35px;
+    height: 35px;
+}
+
+#projectTitle {
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #e5e5e5;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#holoStatusU {
+    color: green
+}
+
+#holoStatusNU {
+    color: red
+}
+
+body {
+    background-color: #071e1f;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.table-secondary {
+    background-color: #073131;
+    color: #e5e5e5;
+    font-family: 'Exo 2', sans-serif;
+}
+
+h3 {
+    background-color: #071e1f;
+    color: #e5e5e5;
+    border-color: #071e1f;
+    border: 20 px;
+}
+
+.btn-info {
+    background-color: #11866b;
+    border-color: #11866b;
+}
+
+.btn-primary {
+    background-color: rgb(48, 151, 192);
+    border-color: rgb(48, 151, 192);
+}
